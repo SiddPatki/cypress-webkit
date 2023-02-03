@@ -1,0 +1,13 @@
+{
+    "cypress-cucumber-preprocessor": {
+        "filterSpecs": true,
+        "omitFiltered": true
+    },
+    "devDependencies": {
+        "cypress-downloadfile": "^1.2.1",
+        "cypress-cucumber-tagging": "1.0.3",
+        "chalk": "^4.0.0",
+        "@badeball/cypress-cucumber-preprocessor": "^11.3.1",
+        "ssh2": "1.11.0"
+    }
+}

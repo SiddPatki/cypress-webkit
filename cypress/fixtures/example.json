@@ -1,0 +1,33 @@
+{
+	"applicants": [
+		{
+			"applicantType": "PRIMARY",
+			"firstName": "",
+			"lastName": "",
+			"suffix": "",
+			"middleName": "",
+			"citizenship": "",
+			"ssn": "",
+			"housingStatus": null,
+			"housingExpense": "",
+			"email": "",
+			"cell": "",
+			"address": {
+				"city": "",
+				"line1": "",
+				"line2": "",
+				"state": "Texas",
+				"zip": ""
+			},
+			"id": {
+				"idNumber": "",
+				"issuingCountry": "",
+				"issuingState": "Texas"
+			},
+			"employment": {
+				"employer": "",
+				"employmentStatus": ""
+			}
+		}
+	]
+}

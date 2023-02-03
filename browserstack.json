@@ -1,0 +1,47 @@
+{
+    "auth": {
+      "username": "<USERNAME>",
+      "access_key": "<ACCESS_KEY>"
+    },
+    "browsers": [
+      {
+        "browser": "webkit",
+        "os": "OS X Big Sur",
+        "versions": [
+          "latest"
+        ]
+      }
+    ],
+    "run_settings": {
+      "specs": [
+        "cypress/integration/1-getting-started/todo.spec.js"
+      ],
+      "system_env_vars": [
+        "ROSHAN"
+      ],
+      "project_name": "cypress debug",
+      "cypress_config_file": "./cypress.config.js",
+      "cypress_version": "10.8.0",
+      "build_name": "Safari Webkit on Cypress",
+      "parallels": "1",
+      "headless": false,
+      "npm_dependencies": {
+        "cypress-downloadfile": "^1.2.1",
+        "cypress-cucumber-tagging": "1.0.3",
+        "chalk": "^4.0.0",
+        "@badeball/cypress-cucumber-preprocessor": "^11.3.1",
+        "ssh2": "1.11.0"
+      },
+      "package_config_options": {
+        "cypress-cucumber-preprocessor": {
+          "filterSpecs": true,
+          "omitFiltered": true
+        }
+      }
+    },
+    "connection_settings": {
+      "local": false,
+      "local_mode": "",
+      "local_config_file": ""
+    }
+  }
